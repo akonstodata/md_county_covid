@@ -42,4 +42,5 @@ Prediction for number of cases for Baltimore County for 03/26 is 67.
 
 SOURCE DATA
 ------------
-The COVID Tracking Project [[2]](https://covidtracking.com/)
+The COVID Tracking Project [[2]](https://covidtracking.com/).  
+Earlier data from various news sources.
