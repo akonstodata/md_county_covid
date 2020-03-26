@@ -11,14 +11,13 @@ CURRENT RESULTS
 ------------
 Last update: 03/26/2020 9:30am EST
 
-![alt text](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_03262020.png =100x20)
-<img src="https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_03262020.png" alt="" width="200"/>
+<img src="https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_03262020.png" alt="" width=“500"/>
 
-![alt text](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_3counties_03262020 =80x20)
+<img src="https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_3counties_03262020.png" alt="" width=“500"/>
 
-![alt text](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Baltimore_03262020 =100x20)
-
+<img src="https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Baltimore_03262020.png" alt="" width=“500"/>
 
 
 SOURCE DATA
 ------------
+The COVID Tracking Project [[2]](https://covidtracking.com/)
