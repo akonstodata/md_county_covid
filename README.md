@@ -11,7 +11,7 @@ CURRENT RESULTS
 ------------
 Last update: 03/26/2020 9:30am EST
 
-<img src="https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_03262020.png" alt=“1” width=“500"/>
+![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_3counties_03262020.png | width=100)
 
 
 SOURCE DATA
