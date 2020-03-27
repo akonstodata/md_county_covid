@@ -22,28 +22,21 @@ Prediction for number of total cases for 03/27 is 710
 
 MARYLAND: three counties
 ------------
-![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_3counties_03262020.png)
+![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_3counties_update.png)
 
-Prediction for number of cases for Montgomery county for 03/26 is 160.
+Prediction for number of cases for Montgomery county for 03/27 is 197.
 
-Prediction for number of cases for Prince George's county for 03/26 is 91.
+Prediction for number of cases for Prince George's county for 03/27 is 120.
 
-Prediction for number of cases for Anne Arundel county for 03/26 is 40. 
+Prediction for number of cases for Anne Arundel county for 03/27 is 51. 
 
 MARYLAND: Baltimore
 ------------
-![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Baltimore_03262020.png)
+![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Baltimore_update.png)
 
-<<<<<<< HEAD
-Prediction for number of cases for Baltimore City for 03/26 is 74
-Prediction for number of cases for Baltimore County for 03/26 is 67
-=======
-Prediction for number of cases for Baltimore City for 03/26 is 74.
+Prediction for number of cases for Baltimore City for 03/27 is 97.
 
-Prediction for number of cases for Baltimore County for 03/26 is 67. 
->>>>>>> 7d839795e780907f4895f0ad4c48d30ca972df20
-
-
+Prediction for number of cases for Baltimore County for 03/27 is 101. 
 
 SOURCE DATA
 ------------
