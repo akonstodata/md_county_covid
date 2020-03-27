@@ -42,3 +42,11 @@ SOURCE DATA
 ------------
 The COVID Tracking Project [[2]](https://covidtracking.com/).  
 Earlier data from various news sources.
+
+
+USAGE
+------------
+```
+pipenv install
+pipenv run jupyter notebook
+```
