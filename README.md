@@ -11,32 +11,32 @@ The Jupyter notebook for all updated results is found here [[1]](https://github.
 
 CURRENT RESULTS
 ------------
-Last update: 03/26/2020 8:00pm EST
+Last update: 03/27/2020 8:00pm EST
 
 MARYLAND
 ------------
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_update.png)
 
-Prediction for number of total cases for 03/27 is 710
+Prediction for number of total cases for 03/28 is 961
 
 MARYLAND: three counties
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_3counties_update.png)
 
-Prediction for number of cases for Montgomery county for 03/27 is 197.
+Prediction for number of cases for Montgomery county for 03/28 is 249.
 
-Prediction for number of cases for Prince George's county for 03/27 is 120.
+Prediction for number of cases for Prince George's county for 03/28 is 179.
 
-Prediction for number of cases for Anne Arundel county for 03/27 is 51. 
+Prediction for number of cases for Anne Arundel county for 03/28 is 78. 
 
 MARYLAND: Baltimore
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Baltimore_update.png)
 
-Prediction for number of cases for Baltimore City for 03/27 is 97.
+Prediction for number of cases for Baltimore City for 03/28 is 119.
 
-Prediction for number of cases for Baltimore County for 03/27 is 101. 
+Prediction for number of cases for Baltimore County for 03/28 is 136. 
 
 SOURCE DATA
 ------------
