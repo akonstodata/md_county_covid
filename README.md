@@ -24,25 +24,25 @@ MARYLAND: Montgomery and Prince George's Counties
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Mont_Prince_update.png)
 
-The best model for Montgomery is the exponential model.  Prediction for number of total cases for 03/28 is 302.  
+The best model for Montgomery is the exponential model.  Prediction for number of total cases for 03/28 is 247.  
 
-The best model for Prince Georges is the exponential model.  Prediction for number of total cases for 03/28 is 288.   
+The best model for Prince Georges is the exponential model.  Prediction for number of total cases for 03/28 is 203.   
 
 MARYLAND: Howard and Anne Arundel Counties
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Howard_AA_update.png)
 
-The best model for Howard is the exponential model.  Prediction for number of total cases for 03/28 is 101.
+The best model for Howard is the exponential model.  Prediction for number of total cases for 03/28 is 78.
 
-The best model for Anne Arundel is the exponential model.  Prediction for number of total cases for 03/28 is 114.
+The best model for Anne Arundel is the exponential model.  Prediction for number of total cases for 03/28 is 82.
 
 MARYLAND: Baltimore
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Baltimore_update.png)
 
-The best model for Baltimore City is the exponential model.  Prediction for number of total cases for 03/28 is 143.
+The best model for Baltimore City is the exponential model.  Prediction for number of total cases for 03/28 is 113.
 
-The best model for Baltimore County is the exponential model.  Prediction for number of total cases for 03/28 is 190.
+The best model for Baltimore County is the exponential model.  Prediction for number of total cases for 03/28 is 140.
 
 SOURCE DATA
 ------------
