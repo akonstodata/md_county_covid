@@ -22,7 +22,7 @@ The best model for Maryland is the exponential model.  Prediction for number of 
 
 MARYLAND: Montgomery and Prince George's Counties
 ------------
-![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Howard_AA_update.png)
+![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Mont_Prince_update.png)
 
 The best model for Montgomery is the exponential model.  Prediction for number of total cases for 03/28 is 302.  
 
@@ -30,7 +30,7 @@ The best model for Prince Georges is the exponential model.  Prediction for numb
 
 MARYLAND: Howard and Anne Arundel Counties
 ------------
-![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Mont_Prince_update.png)
+![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Howard_AA_update.png)
 
 The best model for Howard is the exponential model.  Prediction for number of total cases for 03/28 is 101.
 
