@@ -7,7 +7,7 @@ The increase in COVID cases in a particular state will often be spread heterogen
 
 Contact: Anna Konstorum (konstorum.anna@gmail.com)
 
-The Jupyter notebook for all updated results is found here [[1]](https://github.com/akonstodata/md_county_covid/blob/master/code/MD_COVID_Dynamics.ipynb)
+The Jupyter notebook for all updated results is found here [[1]](https://github.com/akonstodata/md_county_covid/blob/master/code/MD_COVID_Dynamics_model_choose.ipynb)
 
 CURRENT RESULTS
 ------------
