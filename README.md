@@ -18,31 +18,31 @@ MARYLAND
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_update.png)
 
-The best model for Maryland is the exponential model.  Prediction for number of total cases for 03/29 is 1309.
+The best model for Maryland is the exponential model.  Prediction for number of total cases for 03/30 is 1629.
 
 MARYLAND: Montgomery and Prince George's Counties
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Mont_Prince_update.png)
 
-The best model for Montgomery is the exponential model.  Prediction for number of total cases for 03/29 is 314.  
+The best model for Montgomery is the exponential model.  Prediction for number of total cases for 03/30 is 377.
 
-The best model for Prince Georges is the exponential model.  Prediction for number of total cases for 03/29 is 276.   
+The best model for Prince Georges is the exponential model.  Prediction for number of total cases for 03/30 is 340.
 
 MARYLAND: Howard and Anne Arundel Counties
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Howard_AA_update.png)
 
-The best model for Howard is the exponential model.  Prediction for number of total cases for 03/29 is 95.
+The best model for Howard is the quadratic model.  Prediction for number of total cases for 03/30 is 99.
 
-The best model for Anne Arundel is the exponential model.  Prediction for number of total cases for 03/29 is 126.
+The best model for Anne Arundel is the quadratic model.  Prediction for number of total cases for 03/30 is 125.
 
 MARYLAND: Baltimore
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Baltimore_update.png)
 
-The best model for Baltimore City is the exponential model.  Prediction for number of total cases for 03/29 is 141.
+The best model for Baltimore City is the quadratic model.  Prediction for number of total cases for 03/30 is 155.
 
-The best model for Baltimore County is the exponential model.  Prediction for number of total cases for 03/29 is 191.
+The best model for Baltimore County is the quadratic model.  Prediction for number of total cases for 03/30 is 201.
 
 SOURCE DATA
 ------------
