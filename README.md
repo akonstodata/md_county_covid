@@ -11,38 +11,38 @@ The Jupyter notebook for all updated results is found here [[1]](https://github.
 
 CURRENT RESULTS
 ------------
-Last update: 03/28/2020 10:00am EST
+Last update: 03/28/2020 9:25pm EST
 
 MARYLAND
 ------------
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_update.png)
 
-The best model for Maryland is the exponential model.  Prediction for number of total cases for 03/28 is 993.
+The best model for Maryland is the exponential model.  Prediction for number of total cases for 03/29 is 1309.
 
 MARYLAND: Montgomery and Prince George's Counties
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Mont_Prince_update.png)
 
-The best model for Montgomery is the exponential model.  Prediction for number of total cases for 03/28 is 247.  
+The best model for Montgomery is the exponential model.  Prediction for number of total cases for 03/29 is 314.  
 
-The best model for Prince Georges is the exponential model.  Prediction for number of total cases for 03/28 is 203.   
+The best model for Prince Georges is the exponential model.  Prediction for number of total cases for 03/29 is 276.   
 
 MARYLAND: Howard and Anne Arundel Counties
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Howard_AA_update.png)
 
-The best model for Howard is the exponential model.  Prediction for number of total cases for 03/28 is 78.
+The best model for Howard is the exponential model.  Prediction for number of total cases for 03/29 is 95.
 
-The best model for Anne Arundel is the exponential model.  Prediction for number of total cases for 03/28 is 82.
+The best model for Anne Arundel is the exponential model.  Prediction for number of total cases for 03/29 is 126.
 
 MARYLAND: Baltimore
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Baltimore_update.png)
 
-The best model for Baltimore City is the exponential model.  Prediction for number of total cases for 03/28 is 113.
+The best model for Baltimore City is the exponential model.  Prediction for number of total cases for 03/29 is 141.
 
-The best model for Baltimore County is the exponential model.  Prediction for number of total cases for 03/28 is 140.
+The best model for Baltimore County is the exponential model.  Prediction for number of total cases for 03/29 is 191.
 
 SOURCE DATA
 ------------
