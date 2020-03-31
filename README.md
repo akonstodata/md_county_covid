@@ -13,7 +13,7 @@ CURRENT RESULTS
 ------------
 Last update: 03/31/2020 6:00pm EST
 
-This is the first day that the state and county models are all quadratic. 
+This is the second day in a row that the state and county models are all quadratic. 
 
 MARYLAND
 ------------
