@@ -11,38 +11,26 @@ The Jupyter notebook for all updated results is found here [[1]](https://github.
 
 CURRENT RESULTS
 ------------
-Last update: 03/29/2020 12:40pm EST
+Last update: 03/30/2020 8:00pm EST
+
+This is the first day that the state and county models are all quadratic. 
 
 MARYLAND
 ------------
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_update.png)
 
-The best model for Maryland is the exponential model.  Prediction for number of total cases for 03/30 is 1629.
-
 MARYLAND: Montgomery and Prince George's Counties
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Mont_Prince_update.png)
-
-The best model for Montgomery is the exponential model.  Prediction for number of total cases for 03/30 is 377.
-
-The best model for Prince Georges is the exponential model.  Prediction for number of total cases for 03/30 is 340.
 
 MARYLAND: Howard and Anne Arundel Counties
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Howard_AA_update.png)
 
-The best model for Howard is the quadratic model.  Prediction for number of total cases for 03/30 is 99.
-
-The best model for Anne Arundel is the quadratic model.  Prediction for number of total cases for 03/30 is 125.
-
 MARYLAND: Baltimore
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_Baltimore_update.png)
-
-The best model for Baltimore City is the quadratic model.  Prediction for number of total cases for 03/30 is 155.
-
-The best model for Baltimore County is the quadratic model.  Prediction for number of total cases for 03/30 is 201.
 
 SOURCE DATA
 ------------
