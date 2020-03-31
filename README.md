@@ -11,7 +11,7 @@ The Jupyter notebook for all updated results is found here [[1]](https://github.
 
 CURRENT RESULTS
 ------------
-Last update: 03/30/2020 8:45pm EST
+Last update: 03/31/2020 6:00pm EST
 
 This is the first day that the state and county models are all quadratic. 
 
