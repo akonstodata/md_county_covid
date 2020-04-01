@@ -11,9 +11,9 @@ The Jupyter notebook for all updated results is found here [[1]](https://github.
 
 CURRENT RESULTS
 ------------
-Last update: 03/31/2020 6:00pm EST
+Last update: 04/01/2020 8:00pm EST
 
-This is the second day in a row that the state and county models are all quadratic. 
+While this is the third day in a row that the state model is quadratic, Howard County, Baltimore County, and Baltimore City are now back to exponential.
 
 MARYLAND
 ------------
