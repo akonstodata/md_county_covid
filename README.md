@@ -11,9 +11,11 @@ The Jupyter notebook for all updated results is found here [[1]](https://github.
 
 CURRENT RESULTS
 ------------
-Last update: 04/01/2020 8:00pm EST
+Last update: 04/02/2020 7:20pm EST
 
-While this is the third day in a row that the state model is quadratic, Howard County, Baltimore County, and Baltimore City are now back to exponential.
+The state and several county model are now back to exponential.  It's hard to say whether this is due to more rapid growth of positive cases, or more testing.  We will test a few hypotheses in the coming days.
+
+Hospitalization rate and model has now been added to the state graph.
 
 MARYLAND
 ------------
