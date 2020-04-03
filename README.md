@@ -11,11 +11,9 @@ The Jupyter notebook for all updated results is found here [[1]](https://github.
 
 CURRENT RESULTS
 ------------
-Last update: 04/02/2020 7:20pm EST
+Last update: 04/03/2020 6:20pm EST
 
-The state and several county model are now back to exponential.  It's hard to say whether this is due to more rapid growth of positive cases, or more testing.  We will test a few hypotheses in the coming days.
-
-Hospitalization rate and model has now been added to the state graph.
+The state and all counties tracked except Howard are back to exponential.  The Jupyter notebook now contains output of fraction of hospitalizations/positive and deaths/positive per day, this will be added to the graph output in the coming days.
 
 MARYLAND
 ------------
