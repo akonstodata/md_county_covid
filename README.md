@@ -11,14 +11,15 @@ The Jupyter notebook for all updated results is found here [[1]](https://github.
 
 CURRENT RESULTS
 ------------
-Last update: 04/03/2020 6:20pm EST
+Last update: 04/04/2020 4:30pm EST
 
-The state and all counties tracked except Howard are back to exponential.  The Jupyter notebook now contains output of fraction of hospitalizations/positive and deaths/positive per day, this will be added to the graph output in the coming days.
+The state and all counties tracked except Howard and Baltimore City are exponential.  The hospitalization/(positive cases) and deaths/(positive cases) percentages are now plotted.
 
 MARYLAND
 ------------
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_update.png)
+![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_percent.png)
 
 MARYLAND: Montgomery and Prince George's Counties
 ------------
