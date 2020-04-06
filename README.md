@@ -11,9 +11,7 @@ The Jupyter notebook for all updated results is found here [[1]](https://github.
 
 CURRENT RESULTS
 ------------
-Last update: 04/04/2020 4:30pm EST
-
-The state and all counties tracked except Howard and Baltimore City are exponential.  The hospitalization/(positive cases) and deaths/(positive cases) percentages are now plotted.
+Last update: 04/05/2020 9:15pm EST
 
 MARYLAND
 ------------
