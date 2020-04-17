@@ -5,6 +5,8 @@ INTRODUCTION
 ------------
 The increase in COVID cases in a particular state will often be spread heterogeniously in that state: some counties will be experiencing tremendous growth, whereas others will not.  It will be helpful, then, to track dynamics of virus spread at the county level.  Below, we present results from a statistical model fit of counties in Maryland.  We will be tracking which models fit cumulative growth the best: exponential, quadratic, or linear.  As the cumulative growth in positive cases slows, the growth function will shift from exponential to quadratic (concave up), and eventually to quadratic (concave down) and linear.  A switch to either of the latter two function types will indicate a substantial shift to slower growth dynamics, which is what we are looking and working for.
 
+We are also now the crude CFR (case fatality rate), which is calculated as the number of deaths divided by the number of positive cases, for Maryland, and for each county where the positive case count exceeds 20 or the death count exceeds 1.
+
 Contact: Anna Konstorum (konstorum.anna@gmail.com)
 
 The Jupyter notebook for all updated results is found here [[1]](https://github.com/akonstodata/md_county_covid/blob/master/code/MD_COVID_Dynamics_model_choose.ipynb)
@@ -19,6 +21,8 @@ MARYLAND
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_update.png)
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_percent.png)
+------------
+![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_county_cfr.png)
 
 MARYLAND: Montgomery and Prince George's Counties
 ------------
