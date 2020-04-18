@@ -5,7 +5,10 @@ INTRODUCTION
 ------------
 The increase in COVID cases in a particular state will often be spread heterogeniously in that state: some counties will be experiencing tremendous growth, whereas others will not.  It will be helpful, then, to track dynamics of virus spread at the county level.  Below, we present results from a statistical model fit of counties in Maryland.  We will be tracking which models fit cumulative growth the best: exponential, quadratic, or linear.  As the cumulative growth in positive cases slows, the growth function will shift from exponential to quadratic (concave up), and eventually to quadratic (concave down) and linear.  A switch to either of the latter two function types will indicate a substantial shift to slower growth dynamics, which is what we are looking and working for.
 
-We are also now the crude CFR (case fatality rate), which is calculated as the number of deaths divided by the number of positive cases, for Maryland, and for each county where the positive case count exceeds 20 or the death count exceeds 1.  We will also calculate the crude CFR based on gender and ethnic differences in future versions.
+We show the crude CFR (case fatality rate), which is calculated as the number of deaths divided by the number of positive cases, for Maryland, and for each county where the positive case count exceeds 20 or the death count exceeds 1.  We will also calculate the crude CFR based on gender and ethnic differences in future versions.
+
+Finally, we include the percent positive cases as a function of the population for both the state, as well as the counties.
+
 
 Contact: Anna Konstorum (konstorum.anna@gmail.com)
 
@@ -13,7 +16,7 @@ The Jupyter notebook for all updated results is found here [[1]](https://github.
 
 CURRENT RESULTS
 ------------
-Last update: 04/17/2020 7:00am EST
+Last update: 04/17/2020 11:30pm EST
 
 MARYLAND
 ------------
@@ -23,6 +26,8 @@ MARYLAND
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_percent.png)
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_county_cfr.png)
+------------
+![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_county_pct.png)
 
 MARYLAND: Montgomery and Prince George's Counties
 ------------
@@ -39,6 +44,7 @@ MARYLAND: Baltimore
 SOURCE DATA
 ------------
 The COVID Tracking Project [[2]](https://covidtracking.com/).  
+U.S. Census[[3]](https://census.gov/).
 Earlier data from various news sources.
 
 
