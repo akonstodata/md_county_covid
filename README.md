@@ -9,14 +9,13 @@ We show the crude CFR (case fatality rate), which is calculated as the number of
 
 Finally, we include the percent positive cases as a function of the population for both the state, as well as the counties.
 
-
 Contact: Anna Konstorum (konstorum.anna@gmail.com)
 
 The Jupyter notebook for all updated results is found here [[1]](https://github.com/akonstodata/md_county_covid/blob/master/code/MD_COVID_Dynamics_model_choose.ipynb)
 
 CURRENT RESULTS
 ------------
-Last update: 04/17/2020 11:30pm EST
+Last update: 04/18/2020 9:00pm EST
 
 MARYLAND
 ------------
@@ -25,9 +24,7 @@ MARYLAND
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_percent.png)
 ------------
-![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_county_cfr.png)
-------------
-![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_county_pct.png)
+![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_county_stats.png)
 
 MARYLAND: Montgomery and Prince George's Counties
 ------------
