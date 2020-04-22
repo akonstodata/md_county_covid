@@ -19,7 +19,7 @@ MARYLAND
 ------------
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_update.png)
-<sub>The colored line represents the model type that was predicted for the previous ten days: red refers to exponential, yellow to quadratic (up), and green to quadratic (down) or linear <\sub>
+<sub>The colored line represents the model type that was predicted for the previous ten days: red refers to exponential, yellow to quadratic (up), and green to quadratic (down) or linear </sub>
 
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_percent.png)
