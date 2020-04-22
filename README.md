@@ -31,7 +31,7 @@ MARYLAND
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_types.png)
 
-The CFR for ethnicity seems to be suspiciously high for Asian, White(NH), and low for Hispanic.  It's possible that the individuals in the 'Data not available' classification may fall into the above categories, and thus alter the CFR.
+<sub>The CFR for ethnicity seems to be suspiciously high for Asian, White(NH), and low for Hispanic.  It's possible that the individuals in the 'Data not available' classification may fall into the above categories, and thus alter the CFR.</sub>
 
 MARYLAND: Montgomery and Prince George's Counties
 ------------
