@@ -13,12 +13,14 @@ The Jupyter notebook for all updated results is found here [[1]](https://github.
 
 CURRENT RESULTS
 ------------
-Last update: 04/21/2020 10:30am EST
+Last update: 04/22/2020 7:00pm EST
 
 MARYLAND
 ------------
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_update.png)
+<sub>The colored line represents the model type that was predicted for the previous ten days: red refers to exponential, yellow to quadratic (up), and green to quadratic (down) or linear <\sub>
+
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_percent.png)
 ------------
