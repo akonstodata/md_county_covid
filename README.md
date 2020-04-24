@@ -48,7 +48,7 @@ MARYLAND: Baltimore
 SOURCE DATA
 ------------
 The COVID Tracking Project [[2]](https://covidtracking.com/).  
-U.S. Census[[3]](https://census.gov/).
+U.S. Census (2019 data) [[3]](https://census.gov/).  
 Earlier data from various news sources.
 
 
