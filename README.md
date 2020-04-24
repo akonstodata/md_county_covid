@@ -19,7 +19,7 @@ MARYLAND
 ------------
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_update.png)
-<sub>The colored line represents the model type that was predicted for the previous ten days: red refers to exponential, yellow to quadratic (up), and green to quadratic (down) or linear </sub>
+<sub>The colored line represents the model type that was predicted for the previous ten days: red refers to exponential, yellow to quadratic (up), and green to quadratic (down) or linear. </sub>
 
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_percent.png)
@@ -31,7 +31,7 @@ MARYLAND
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_types.png)
 
-<sub>The CFR for ethnicity seems to be suspiciously high for Asian, White(NH), and low for Hispanic.  It's possible that the individuals in the 'Data not available' classification may fall into the above categories, and thus alter the CFR.</sub>
+<sub>The CFR for ethnicity seems to be suspiciously high for Asian, White (NH), and low for Hispanic and Other (NH).  It's possible that the individuals in the 'Data not available' classification may fall into the above categories, and thus alter the CFR.</sub>
 
 MARYLAND: Montgomery and Prince George's Counties
 ------------
