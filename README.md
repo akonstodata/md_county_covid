@@ -13,7 +13,7 @@ The Jupyter notebook for all updated results is found here [[1]](https://github.
 
 CURRENT RESULTS
 ------------
-Last update: 04/24/2020 12:00pm EST
+Last update: 04/25/2020 11:00pm EST
 
 MARYLAND
 ------------
@@ -25,6 +25,7 @@ MARYLAND
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_percent.png)
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_county_stats.png)
+<sub> The recent drop in the percent (Hospitalizations/positive cases) may indicate a higher testing rate.</sub>
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_gender.png)
 ------------
