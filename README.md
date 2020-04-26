@@ -21,17 +21,13 @@ MARYLAND
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_update.png)
 <sub>The colored line represents the model type that was predicted for the previous ten days: red refers to exponential, yellow to quadratic (up), and green to quadratic (down) or linear. </sub>
 
-------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_percent.png)
 
 <sub> The recent drop in the percent (Hospitalizations/positive cases) may indicate a higher testing rate.</sub>
  
-------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_county_stats.png)
 
-------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_gender.png)
-------------
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_types.png)
 
