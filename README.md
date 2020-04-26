@@ -23,9 +23,12 @@ MARYLAND
 
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_percent.png)
+
+<sub> The recent drop in the percent (Hospitalizations/positive cases) may indicate a higher testing rate.</sub>
+ 
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_county_stats.png)
-<sub> The recent drop in the percent (Hospitalizations/positive cases) may indicate a higher testing rate.</sub>
+
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_gender.png)
 ------------
