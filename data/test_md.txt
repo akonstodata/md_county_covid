@@ -1,0 +1,83 @@
+COVID-19 Statistics in Maryland
+Number of confirmed cases: 17,766
+Number of negative test results: 71,357
+Number of confirmed deaths: 797
+Number of probable deaths: 78
+Currently hospitalized: 1408
+Acute care: 870
+Intensive care: 538
+Ever hospitalized: 3,760
+Released from isolation: 1,165
+Cases and Deaths Data Breakdown:
+Parenthesis = Confirmed death, laboratory-confirmed positive COVID-19 test result 
+Asterisk = Probable death, death certificate lists COVID-19 as the cause of death but not yet confirmed by a laboratory test
+NH = Non-Hispanic
+
+By County
+
+County	Cases
+Deaths	
+Allegany	105	(3)	
+Anne Arundel	1,430	(62)	8*
+Baltimore City	1,791
+(72)	6*
+Baltimore County	2,387	(69)	10*
+Calvert	130
+(7)	
+Caroline	61		
+Carroll	384	(36)	
+Cecil	146
+(5)	
+Charles	483	(34)	1*
+Dorchester	38	(2)	
+Frederick	814	(39)	6*
+Garrett	4
+Harford	302	(4)	7*
+Howard	686	(15)	1*
+Kent	67	(3)	
+Montgomery	3,483	(152)	19*
+Prince George's	4,795	(162)	11*
+Queen Anne's	52	(3)		
+St. Mary's	124	(6)	
+Somerset	14			
+Talbot	28	(1)	
+Washington	154
+(3)
+Wicomico	242	(4)	
+Worcester	46	
+
+Data Not Available	
+(115)	9*
+By Age Range and Gender
+
+Age/Gender	Cases
+Deaths	
+0-9	189		
+10-19	441		
+20-29	1,982
+(4)	
+30-39	2,963	(12)	1*
+40-49	3,155	(18)	2*
+50-59	3,288	(54)	5*
+60-69	2,548	(113)	9*
+70-79	1,766
+(183)	12*
+80+	1,434	(298)	40*
+Age Data Not Available	
+(115)	9*
+Female:	9,498	(385)	45*
+Male:	8,268 
+(412)	33*
+Gender Data Not Available:		
+By Race and Ethnicity
+
+Race/Ethnicity	Cases
+Deaths	
+African-American (NH)	6,314	(301)	23*
+Asian (NH)	344	(29)	2*
+White (NH)
+4020	(296)	44*
+Hispanic
+2,574	(44)	
+Other (NH)	657	(10)	
+Data Not Available	3,857	(117)	9*
