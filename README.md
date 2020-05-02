@@ -13,7 +13,7 @@ The Jupyter notebook for all updated results is found here [[1]](https://github.
 
 CURRENT RESULTS
 ------------
-Last update: 04/30/2020 10:00pm EST
+Last update: 05/01/2020 11:00pm EST
 
 MARYLAND
 ------------
@@ -33,8 +33,6 @@ MARYLAND
 
  ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_types.png)
-
-<sub>The CFR for ethnicity seems to be suspiciously high for Asian, White (NH), and low for Hispanic and Other (NH).  It's possible that the individuals in the 'Data not available' classification may fall into the above categories, and thus alter the CFR.</sub>
 
 MARYLAND: Montgomery and Prince George's Counties
 ------------
