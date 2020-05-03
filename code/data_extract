@@ -1,0 +1,153 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Apr 25 13:49:31 2020
+
+@author: annakonstorum
+"""
+
+import os
+import pandas as pd
+import datetime
+os.chdir('/Users/annakonstorum/Google Drive/Covid_model_v2/data')
+
+url='https://raw.githubusercontent.com/akonstodata/md_county_covid/master/data/MD_county_covid.csv'
+md_county=pd.read_csv(url,sep=',',header='infer', parse_dates=[1],index_col=0)
+
+url='https://raw.githubusercontent.com/akonstodata/md_county_covid/master/data/MD_covid_D.csv'
+md_d=pd.read_csv(url,sep=',',header='infer', parse_dates=[1],index_col=0)
+
+url='https://raw.githubusercontent.com/akonstodata/md_county_covid/master/data/MD_covid_H.csv'
+md_xtra=pd.read_csv(url,sep=',',header='infer', parse_dates=[1],index_col=0)
+
+
+end_date = max(md_county['Date'])
+next_date = end_date + datetime.timedelta(days=1)
+next_date_index=md_county.index[-1]+1
+print(next_date_index)
+
+new_today = pd.DataFrame(index=[next_date_index], columns=list(md_county.columns))
+new_today["Date"]=next_date
+
+new_today_x = pd.DataFrame(index=[next_date_index], columns=list(md_xtra.columns))
+new_today_x["Date"]=next_date
+
+new_today_d = pd.DataFrame(index=[next_date_index], columns=list(md_d.columns))
+new_today_d["Date"]=next_date
+
+os.chdir('/Users/annakonstorum/Google Drive/Covid_model_v2/')
+today = open("test_md.txt",'r',encoding="utf-8")
+today_2=open("test_md2.txt",'r',encoding="utf-8")
+
+today_list=[]
+for line in today:
+    line = line.replace(u'\xa0', u' ')
+    today_list.append(line.strip())
+    
+today_list2=[]
+for line in today_2:
+    line = line.replace(u'\xa0', u' ')
+    today_list2.append(line.strip())
+
+md_cases=today_list[1]
+md_cases=md_cases.split(": ")
+md_cases=int(md_cases[1].replace(',',''))
+
+neg=today_list[2]
+neg=neg.split(": ")
+neg=int(neg[1].replace(',',''))
+
+hosp_curr=today_list[5]
+hosp_curr=hosp_curr.split(": ")
+hosp_curr=int(hosp_curr[1].replace(',',''))
+
+hosp_tot=today_list[8]
+hosp_tot=hosp_tot.split(": ")
+hosp_tot=int(hosp_tot[1].replace(',',''))
+
+deaths_tot=today_list[3]
+deaths_tot=deaths_tot.split(": ")
+deaths_tot=int(deaths_tot[1].replace(',',''))
+
+new_today["Total"]=md_cases
+new_today["Negative"]=neg
+new_today_d["Total"]=deaths_tot
+
+new_today_x["Hospitalized"]= hosp_tot
+new_today_x["Current"]= hosp_curr
+
+md_xtra=md_xtra.append(new_today_x)
+os.chdir('/Users/annakonstorum/Google Drive/Covid_model_v2/data')
+md_xtra.to_csv("MD_covid_H.csv",sep=',',header=True)
+
+#get county info
+for i in list(range(2,26)):
+    county=today_list2[i]
+    county=county.split("\t")
+    county_name=county[0]
+    county_pos=county[1].replace('"','')
+    county_pos = int(county_pos.replace(',',''))
+    if len(county)>2:
+        county_deaths=county[2].replace('"','')
+        county_deaths = abs(int(county_deaths.replace(',','')))
+    else:
+        county_deaths=0
+    if county_name!="Prince George's":
+        new_today[county_name]=county_pos
+        new_today_d[county_name]=county_deaths
+    else:
+        new_today["Prince Georges"]=county_pos
+        new_today_d["Prince Georges"]=county_deaths
+
+#get gender info
+female=today_list2[39]
+female=female.split("\t")
+female_pos=female[1].replace('"','')
+female_pos=int(female_pos.replace(',',''))
+
+female_deaths=female[2].replace('"','')
+female_deaths=abs(int(female_deaths.replace(',','')))
+
+new_today["Female"]=female_pos
+new_today_d["Female"]=female_deaths
+
+male=today_list2[40]
+male=male.split("\t")
+male_pos=male[1].replace('"','')
+male_pos=int(male_pos.replace(',',''))
+
+male_deaths=male[2].replace('"','')
+male_deaths=abs(int(male_deaths.replace(',','')))
+
+new_today["Male"]=male_pos
+new_today_d["Male"]=male_deaths
+
+#get ethnicity info
+for i in list(range(43,49)):
+    result = today_list2[i]
+    result=result.split("\t")
+    result_pos=result[1].replace('"','')
+    result_pos = int(result_pos.replace(',',''))
+    result_deaths=result[2].replace('"','')
+    result_deaths=abs(int(result_deaths.replace(',','')))
+    
+    if i==43:
+        output='AA'
+    elif i==44:
+        output='Asian'
+    elif i==45:
+        output='White'
+    elif i==46:
+        output='Hispanic'
+    elif i==47:
+        output='Other'
+    elif i==48:
+        output='Data not available'
+    new_today[output]=result_pos
+    new_today_d[output]=result_deaths
+        
+md_county=md_county.append(new_today)
+md_d=md_d.append(new_today_d)
+
+md_county.to_csv("MD_county_covid.csv",sep=',',header=True)
+md_d.to_csv("MD_covid_D.csv",sep=',',header=True)
