@@ -9,11 +9,11 @@ We show the crude CFR (case fatality rate), which is calculated as the number of
 
 Contact: Anna Konstorum (konstorum.anna@gmail.com)
 
-The Jupyter notebook for all updated results is found here [[1]](https://github.com/akonstodata/md_county_covid/blob/master/code/MD_COVID_Dynamics_model_choose.ipynb)
+The Jupyter notebook for all updated results is found here [[1]](https://github.com/akonstodata/md_county_covid/blob/master/code/MD_COVID_Dynamics_model_choose_v2.ipynb)
 
 CURRENT RESULTS
 ------------
-Last update: 05/19/2020 11:00am EST
+Last update: 05/21/2020 10:00am EST
 
 MARYLAND
 ------------
