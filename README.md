@@ -49,7 +49,7 @@ MARYLAND: Baltimore
 SOURCE DATA
 ------------
 The COVID Tracking Project [[2]](https://covidtracking.com/).  
-U.S. Census (2019 data) [[3]](https://census.gov/).  
+U.S. Census (2019 population estimate for Maryland) [[3]](https://www.census.gov/quickfacts/fact/table/MD/PST045219#).  
 Earlier data from various news sources.
 
 
