@@ -5,34 +5,34 @@ INTRODUCTION
 ------------
 The increase in COVID cases in a particular state will often be spread heterogeniously in that state: some counties will be experiencing tremendous growth, whereas others will not.  It will be helpful, then, to track dynamics of virus spread at the county level.  Below, we present results from a statistical model fit of counties in Maryland.  We will be tracking which models fit cumulative growth the best: exponential, quadratic, or linear.  As the cumulative growth in positive cases slows, the growth function will shift from exponential to quadratic (concave up), and eventually to quadratic (concave down) and linear.  A switch to either of the latter two function types will indicate a substantial shift to slower growth dynamics, which is what we are looking and working for.
 
-We show the crude CFR (case fatality rate), which is calculated as the number of deaths divided by the number of positive cases, for Maryland, and for each county where the positive case count exceeds 20 or the death count exceeds 1.  We include the percent positive cases as a function of the population for the state, as well as the counties.  We also include the percent positive cases and CFR as a function of gender and ethnicity and will include these attributes as a function age shortly.
+We show the crude CFR (case fatality rate), which is calculated as the number of deaths divided by the number of positive cases [[1]](https://en.wikipedia.org/wiki/Case_fatality_rate), for Maryland, and for each county where the positive case count exceeds 20 or the death count exceeds 1.  We include the percent positive cases as a function of the population for the state, as well as the counties.  We also include the percent positive cases and CFR for gender and race/ethnicity and will include these attributes as a function age shortly.
 
 Contact: Anna Konstorum (konstorum.anna@gmail.com)
 
-The Jupyter notebook for all updated results is found here [[1]](https://github.com/akonstodata/md_county_covid/blob/master/code/MD_COVID_Dynamics_model_choose_v2.ipynb)
+The Jupyter notebook for all updated results is found here [[2]](https://github.com/akonstodata/md_county_covid/blob/master/code/MD_COVID_Dynamics_model_choose_v2.ipynb)
 
 CURRENT RESULTS
 ------------
-Last update: 05/22/2020 9:00am EST
+Last update: 05/23/2020 11:00pm EST
 
 MARYLAND
 ------------
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_update.png)
-<sub>The colored line represents the model type that was predicted for the previous ten days: red refers to exponential, yellow to quadratic (up), and green to quadratic (down) or linear. </sub>
 
 ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_percent.png)
-<sub> The recent drop in the percent (Hospitalizations/positive cases) may indicate a higher testing rate.</sub>
  
  ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_county_stats.png)
 
  ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_gender.png)
+<sub> Note that while the positive percent for females is higher, CFR for males is higher.</sub>
 
  ------------
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_types.png)
+<sub> The low CFR for Hispanics coupled with a high positive proportion may indicate that this positive population represents a different distribution with respect to age or other attribute than other populations.  </sub>
 
 MARYLAND: Montgomery and Prince George's Counties
 ------------
@@ -48,10 +48,12 @@ MARYLAND: Baltimore
 
 SOURCE DATA
 ------------
-The COVID Tracking Project [[2]](https://covidtracking.com/).  
-U.S. Census (2019 population estimate for Maryland) [[3]](https://www.census.gov/quickfacts/fact/table/MD/PST045219#).  
-Earlier data from various news sources.
+The COVID Tracking Project [[3]](https://covidtracking.com/).  
+U.S. Census (2019 population estimate for Maryland) [[4]](https://www.census.gov/quickfacts/fact/table/MD/PST045219#).  
 
+REFERENCES and NOTES
+------------
+Case Fatality Risk Estimates from the CDC [[4]](https://wwwnc.cdc.gov/eid/article/26/6/20-0320_article)
 
 USAGE
 ------------
