@@ -3,13 +3,15 @@ Analysis of county dynamics for COVID cases in Maryland
 
 INTRODUCTION
 ------------
-The increase in COVID cases in a particular state will often be spread heterogeniously in that state: some counties will be experiencing tremendous growth, whereas others will not.  It will be helpful, then, to track dynamics of virus spread at the county level.  Below, we present results from a statistical model fit of counties in Maryland.  We will be tracking which models fit cumulative growth the best: exponential, quadratic, or linear.  As the cumulative growth in positive cases slows, the growth function will shift from exponential to quadratic (concave up), and eventually to quadratic (concave down) and linear.  A switch to either of the latter two function types will indicate a substantial shift to slower growth dynamics, which is what we are looking and working for.
+The increase in COVID cases in a particular state will often be spread heterogeneously in that state: some counties will be experiencing tremendous growth, whereas others will not.  It will be helpful, then, to track dynamics of virus spread at the county level.  Below, we present results from a statistical model fit of counties in Maryland.  We hope this analysis will be complementary to the data provided by the MD Department of Health [[1]](https://coronavirus.maryland.gov/).  
 
-We show the crude CFR (case fatality rate), which is calculated as the number of deaths divided by the number of positive cases [[1]](https://en.wikipedia.org/wiki/Case_fatality_rate), for Maryland, and for each county where the positive case count exceeds 20 or the death count exceeds 1.  We include the percent positive cases as a function of the population for the state, as well as the counties.  We also include the percent positive cases and CFR for gender and race/ethnicity.
+We will be tracking which models fit cumulative growth the best: exponential, quadratic, or linear.  As the cumulative growth in positive cases slows, the growth function will shift from exponential to quadratic (concave up), and eventually to quadratic (concave down) and linear.  A switch to either of the latter two function types will indicate a substantial shift to slower growth dynamics, which is what we are looking and working for.
+
+We show the crude CFR (case fatality rate), which is calculated as the number of deaths divided by the number of positive cases [[2]](https://en.wikipedia.org/wiki/Case_fatality_rate), for Maryland, and for each county where the positive case count exceeds 20 or the death count exceeds 1.  We include the percent positive cases as a function of the population for the state, as well as the counties.  We also include the percent positive cases and CFR for gender and race/ethnicity.
 
 Contact: Anna Konstorum (konstorum.anna@gmail.com)
 
-The Jupyter notebook for all updated results is found here [[2]](https://github.com/akonstodata/md_county_covid/blob/master/code/MD_COVID_Dynamics_model_choose_v2.ipynb)
+The Jupyter notebook for all updated results is found here [[3]](https://github.com/akonstodata/md_county_covid/blob/master/code/MD_COVID_Dynamics_model_choose_v2.ipynb)
 
 CURRENT RESULTS
 ------------
@@ -48,12 +50,13 @@ MARYLAND: Baltimore
 
 SOURCE DATA
 ------------
-The COVID Tracking Project [[3]](https://covidtracking.com/).  
-U.S. Census (2019 population estimate for Maryland) [[4]](https://www.census.gov/quickfacts/fact/table/MD/PST045219#).  
+MD Department of Health [[1]](https://coronavirus.maryland.gov/).
+The COVID Tracking Project [[4]](https://covidtracking.com/).  
+U.S. Census (2019 population estimate for Maryland) [[5]](https://www.census.gov/quickfacts/fact/table/MD/PST045219#).  
 
 REFERENCES and NOTES
 ------------
-Case Fatality Risk Estimates from the CDC [[5]](https://wwwnc.cdc.gov/eid/article/26/6/20-0320_article)
+Case Fatality Risk Estimates from the CDC [[6]](https://wwwnc.cdc.gov/eid/article/26/6/20-0320_article).
 
 USAGE
 ------------
