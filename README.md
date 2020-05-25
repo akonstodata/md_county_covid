@@ -5,7 +5,7 @@ INTRODUCTION
 ------------
 The increase in COVID cases in a particular state will often be spread heterogeniously in that state: some counties will be experiencing tremendous growth, whereas others will not.  It will be helpful, then, to track dynamics of virus spread at the county level.  Below, we present results from a statistical model fit of counties in Maryland.  We will be tracking which models fit cumulative growth the best: exponential, quadratic, or linear.  As the cumulative growth in positive cases slows, the growth function will shift from exponential to quadratic (concave up), and eventually to quadratic (concave down) and linear.  A switch to either of the latter two function types will indicate a substantial shift to slower growth dynamics, which is what we are looking and working for.
 
-We show the crude CFR (case fatality rate), which is calculated as the number of deaths divided by the number of positive cases [[1]](https://en.wikipedia.org/wiki/Case_fatality_rate), for Maryland, and for each county where the positive case count exceeds 20 or the death count exceeds 1.  We include the percent positive cases as a function of the population for the state, as well as the counties.  We also include the percent positive cases and CFR for gender and race/ethnicity and will include these attributes as a function age shortly.
+We show the crude CFR (case fatality rate), which is calculated as the number of deaths divided by the number of positive cases [[1]](https://en.wikipedia.org/wiki/Case_fatality_rate), for Maryland, and for each county where the positive case count exceeds 20 or the death count exceeds 1.  We include the percent positive cases as a function of the population for the state, as well as the counties.  We also include the percent positive cases and CFR for gender and race/ethnicity.
 
 Contact: Anna Konstorum (konstorum.anna@gmail.com)
 
@@ -13,7 +13,7 @@ The Jupyter notebook for all updated results is found here [[2]](https://github.
 
 CURRENT RESULTS
 ------------
-Last update: 05/23/2020 11:00pm EST
+Last update: 05/24/2020 9:00pm EST
 
 MARYLAND
 ------------
@@ -53,7 +53,7 @@ U.S. Census (2019 population estimate for Maryland) [[4]](https://www.census.gov
 
 REFERENCES and NOTES
 ------------
-Case Fatality Risk Estimates from the CDC [[4]](https://wwwnc.cdc.gov/eid/article/26/6/20-0320_article)
+Case Fatality Risk Estimates from the CDC [[5]](https://wwwnc.cdc.gov/eid/article/26/6/20-0320_article)
 
 USAGE
 ------------
