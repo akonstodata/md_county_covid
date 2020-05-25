@@ -11,7 +11,7 @@ We show the crude CFR (case fatality rate), which is calculated as the number of
 
 Contact: Anna Konstorum (konstorum.anna@gmail.com)
 
-The Jupyter notebook for all updated results is found here [[3]](https://github.com/akonstodata/md_county_covid/blob/master/code/MD_COVID_Dynamics_model_choose_v2.ipynb)
+The Jupyter notebook for all updated results is found here [[3]](https://github.com/akonstodata/md_county_covid/blob/master/code/MD_COVID_Dynamics_model_choose_v2.ipynb).
 
 CURRENT RESULTS
 ------------
@@ -50,8 +50,8 @@ MARYLAND: Baltimore
 
 SOURCE DATA
 ------------
-MD Department of Health [[1]](https://coronavirus.maryland.gov/).
-The COVID Tracking Project [[4]](https://covidtracking.com/).  
+MD Department of Health [[1]](https://coronavirus.maryland.gov/).  
+The COVID Tracking Project [[4]](https://covidtracking.com/).    
 U.S. Census (2019 population estimate for Maryland) [[5]](https://www.census.gov/quickfacts/fact/table/MD/PST045219#).  
 
 REFERENCES and NOTES
