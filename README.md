@@ -58,9 +58,9 @@ REFERENCES and NOTES
 ------------
 Case Fatality Risk Estimates from the CDC [[6]](https://wwwnc.cdc.gov/eid/article/26/6/20-0320_article).  
 
-CityLab (04/03/2020) 'The Geography of Coronavirus' [[7]](https://www.citylab.com/equity/2020/04/coronavirus-spread-map-city-urban-density-suburbs-rural-data/609394/).  
-Boston Globe (05/09/2020) 'A new analysis: Coronavirus death rate surged in Massachusetts locations that already faced challenges' [[8]](https://www.bostonglobe.com/2020/05/09/nation/disparities-push-coronavirus-death-rates-higher/?et_rid=1768511231). 
-Baltimore Sun (05/12/2020) 'Latinos disproportionately hurt by coronavirus inMaryland, Baltimore and among Johns Hopkins patients' [[9]](https://www.baltimoresun.com/coronavirus/bs-md-covid-latinos-20200512-s3cjb6swbbfofmmfg7afmj3zw4-story.html). 
+CityLab (04/03/2020) 'The Geography of Coronavirus' [[7]](https://www.citylab.com/equity/2020/04/coronavirus-spread-map-city-urban-density-suburbs-rural-data/609394/).    
+Boston Globe (05/09/2020) 'A new analysis: Coronavirus death rate surged in Massachusetts locations that already faced challenges' [[8]](https://www.bostonglobe.com/2020/05/09/nation/disparities-push-coronavirus-death-rates-higher/?et_rid=1768511231).   
+Baltimore Sun (05/12/2020) 'Latinos disproportionately hurt by coronavirus inMaryland, Baltimore and among Johns Hopkins patients' [[9]](https://www.baltimoresun.com/coronavirus/bs-md-covid-latinos-20200512-s3cjb6swbbfofmmfg7afmj3zw4-story.html).   
 
 USAGE
 ------------
