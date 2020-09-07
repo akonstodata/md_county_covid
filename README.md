@@ -11,7 +11,7 @@ We include in our analysis the crude CFR (case fatality rate), which is calculat
 
 Contact: Anna Konstorum (konstorum.anna@gmail.com)
 
-The Jupyter notebook for all updated results is found here [[3]](https://github.com/akonstodata/md_county_covid/blob/master/code/MD_COVID_Dynamics_model_choose_v3.ipynb).
+The Jupyter notebook for all updated results is found here [[source_code]](https://github.com/akonstodata/md_county_covid/blob/master/code/MD_COVID_Dynamics_model_choose_v3.ipynb).
 
 CURRENT RESULTS
 ------------
@@ -19,8 +19,8 @@ Last update: 09/07/2020
 
 MARYLAND COVID DYNAMICS OVERVIEW
 ------------
-We begin with a plot cumulative COVID cases and hospitalizations for Maryland.  The predictions are based on a model fit to the last ten days of the data
-![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_cases.png)
+We begin with a plot of cumulative COVID cases and hospitalizations for Maryland.  The predictions are based on a model fit to the last ten days of the data
+![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_model.png)
 <sub> We will include shortly milestone events in Marlyand with respect to closures and re-openings as an overlay for the graph </sub>
 
 We now visualize the historical model type: red indicates and exponential model, orange quadratic (up), and green quadratic (down) or linear.
