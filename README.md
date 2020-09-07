@@ -19,12 +19,11 @@ Last update: 09/07/2020
 
 MARYLAND COVID DYNAMICS OVERVIEW
 ------------
-We begin with a plot of cumulative COVID cases and hospitalizations for Maryland.  The predictions are based on a model fit to the last ten days of the data
+We begin with a plot of cumulative COVID cases and hospitalizations for Maryland.  The predictions are based on a model fit to the last ten days of the data.  We also include a visualization of the historical model type: red indicates an exponential model, orange a quadratic (up) model, and green a quadratic (down) or linear model.
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_model.png)
+![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_models.png)
 <sub> We will include shortly milestone events in Marlyand with respect to closures and re-openings as an overlay for the graph </sub>
 
-We now visualize the historical model type: red indicates and exponential model, orange quadratic (up), and green quadratic (down) or linear.
-![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_models.png)
 
 MARYLAND COVID DYNAMICS: RACE/ETHNICITY
 ------------
@@ -32,7 +31,9 @@ We consider cumulative COVID cases for African American, Asian, Hispanic, and Wh
  
  ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_race.png)
  
- <sub> We observe that while the Hispanic population has the largest case load with respect to their population, they have the lowest CFR.  While MD does not release age-by-race data, we hypothesize that this phenomenon can be explained by the average age of a COVID-positive Hispanic patient to be much lower than for another race.  Hispanics make up a large proportion of essential workers in Maryland, which would increase exposure for individuals of working age [[BaltimoreSun05122020]](https://www.baltimoresun.com/coronavirus/bs-md-covid-latinos-20200512-s3cjb6swbbfofmmfg7afmj3zw4-story.html).   The second observation is that the CFR for all races/ethnicities except for Hispanics tends to increase, then decrease with time (with the highest rate found in Asian and White populations).  We surmise that this is due to a higher case load in older White and Asian populations relative to other races/ethnicities, especially in the early stages of the pandemic.  The subsequent decrease in CFRs could be explained by a rise in case-load of younger populations, which would decrease the CFR.  In the next section, we will see this is indeed the case. </sub>
+We observe that while the Hispanic population has the largest case load with respect to their population, they have the lowest CFR.  While MD does not release age-by-race data, we hypothesize that this phenomenon can be explained by the average age of a COVID-positive Hispanic patient to be much lower than for another race.  Hispanics make up a large proportion of essential workers in Maryland, which would increase exposure for individuals of working age [[BaltimoreSun05122020]](https://www.baltimoresun.com/coronavirus/bs-md-covid-latinos-20200512-s3cjb6swbbfofmmfg7afmj3zw4-story.html).   
+ 
+ The second observation is that the CFR for all races/ethnicities except for Hispanics tends to increase, then decrease with time (with the highest rate found in Asian and White populations).  We surmise that this is due to a higher case load in older White and Asian populations relative to other races/ethnicities, especially in the early stages of the pandemic.  The subsequent decrease in CFRs could be explained by a rise in case-load of younger populations, which would decrease the CFR.  In the next section, we will see this is indeed the case. 
  
 MARYLAND COVID DYNAMICS: AGE
 ------------
@@ -41,7 +42,7 @@ We now consider the age distribution of COVID cases in Maryland (first two panel
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_age.png)
 
-<sub>There are many interesting points to observe here.  While the 50-69 age group tends to have the highest percent of cases (and, is decreasing), we also see that the oldest age group (70+) has a high peak early in the pandemic (which may correspond to spread in nursing homes), followed by a decline.  While the older age groups are declining, we see an increase in the younger age groups over time, the fastest increase is in the 20-29 age group, which can be attributed to social gatherings post re-opening.  It will be valuable to continue observing this data, especially for the very youngest age groups (0-9, 10-19) as schools begin reopening in the Fall. 
+There are many interesting points to observe here.  While the 50-69 age group tends to have the highest percent of cases (and, is decreasing), we also see that the oldest age group (70+) has a high peak early in the pandemic (which may correspond to spread in nursing homes), followed by a decline.  While the older age groups are declining, we see an increase in the younger age groups over time, the fastest increase is in the 20-29 age group, which can be attributed to social gatherings post re-opening.  It will be valuable to continue observing this data, especially for the very youngest age groups (0-9, 10-19) as schools begin reopening in the Fall. 
 
 Note also the large difference in CFR in the age groups: the 70+ age group has a very high CFR  of > 3.0 that continues to grow (which can be explained by a slower growth in cases than deaths), whereas the 50-to-69 age group peaks at 0.5, and the rest of the age groups are below 0.25.  If we consider these results alongside the earlier results looking at CFR for different races/ethnicities, we can more clearly surmise that all but Hispanic races/ethnicities are showing a decline in CFRs most likely due to a decrease in the age distribution of COVID positive cases, and we can also surmise that the races/ethnicities with the oldest populations of positive patients are Asian and White populations, which again can be attributed to socioeconomic stratification.
 
