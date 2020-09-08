@@ -23,9 +23,10 @@ We begin with a plot of cumulative COVID cases and hospitalizations for Maryland
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_model.png)
 
-We also include a visualization of the historical model type: red indicates an exponential model, orange a quadratic (up) model, and green a quadratic (down) or linear model.
+We also include a visualization of the historical model type: red indicates an exponential model, orange a quadratic (up) model, and green a quadratic (down) or linear model.  Note that the models start off in red/orange territory, and by mid-April are in orange/green territory.
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_COVID_models.png)
+
 <sub> We will include shortly milestone events in Marlyand with respect to closures and re-openings as an overlay for the graph </sub>
 
 
