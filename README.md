@@ -15,7 +15,7 @@ The Jupyter notebook for all updated results is found here [[source_code]](https
 
 CURRENT RESULTS
 ------------
-Last update: 09/07/2020 
+Last update: 09/20/2020 
 
 MARYLAND COVID DYNAMICS OVERVIEW
 ------------
@@ -47,7 +47,7 @@ We now consider the age distribution of COVID cases in Maryland (first two panel
 
 ![](https://github.com/akonstodata/md_county_covid/blob/master/results/MD_age.png)
 
-There are many interesting points to observe here.  While the 50-69 age group tends to have the highest percent of cases (which is decreasing), we also see that the oldest age group (70+) has a high peak early in the pandemic (which may correspond to spread in nursing homes), followed by a decline.  While the older age groups are declining, we see an increase in the younger age groups over time, the fastest increase is in the 20-29 age group, which could be attributed to social gatherings post reopening.  It will be valuable to continue observing this data, especially for the very youngest age groups (0-9, 10-19) as schools begin reopening in the Fall. 
+There are many interesting points to observe here.  While the 50-69 age group tends to have the highest percent of cases (which is decreasing), we also see that the oldest age group (70+) has a high peak early in the pandemic (which may correspond to spread in nursing homes), followed by a decline.  While the older age groups are declining, we see an increase in the younger age groups over time, the fastest increase is in the 20-29 age group, which could be attributed to social gatherings post reopening.  We also begin to see a steeper increase in the 10-19 age group after September 2020, most likely due to school reopenings.
 
 Note also the large difference in CFR in the age groups: the 70+ age group has a very high CFR  of > 3.0 that continues to grow (which can be explained by a slower growth in cases than deaths), whereas the 50-to-69 age group peaks at 0.5 CFR, and the rest of the age groups are below 0.25 CFR.  If we consider these results alongside the earlier CFR results for different races/ethnicities, we can more confidently hypothesize that all but Hispanic races/ethnicities are showing a decline in CFRs due to a decrease in the age distribution of COVID positive cases.  We can also surmise that the races/ethnicities with the oldest populations of positive patients are Asian and White populations, which again can be attributed to socioeconomic stratification.
 
