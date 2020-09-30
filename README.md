@@ -15,7 +15,7 @@ The Jupyter notebook for all updated results is found here [[source_code]](https
 
 CURRENT RESULTS
 ------------
-Last update: 09/20/2020 
+Last update: 09/30/2020 
 
 MARYLAND COVID DYNAMICS OVERVIEW
 ------------
